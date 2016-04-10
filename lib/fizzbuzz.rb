@@ -3,9 +3,10 @@ def fizzbuzz(nums)
        'fizz'
     elsif nums % 5 == 0 && nums % 3 != 0
         'buzz'
-    elsif nums == 15
+    elsif nums % 3 == 0 && nums % 5 == 0
         'fizzbuzz'
     else 
-        4
+        nums
     end
 end
+
